@@ -1,31 +1,32 @@
-var balance = prompt("Your balance?","100$");
-console.log(balance);
+// var balance = prompt("Your balance?","100$");
 
-var c = prompt("Name of our store?");
-console.log(c);
+// var name = prompt("Name of our store?");
 
-var mainList = {
-budget: 100,
-nameofcomp: 'BookStore',
-ShopGoods: ['book1','book2','book3','book4'],
-employers: {
-director: 'John',
-}
+// var mainList = {
+// budget: balance,
+// nameofcomp: name,
+// ShopGoods: [],
+// employers: {director: 'John'},
+// open: false
+// };
+
+
+// for(let i =0; i<5;i++){
+// 	var a = prompt("What kind of goods will we sell?");
+// 	if((typeof(a)) === 'string' && (typeof(a)) != null && a != '' && a.length < 40){
+// 		mainList.ShopGoods[i] = a;
+// 		console.log("All right");
+// 	}else{
+// 		i = i - 1;
+// 	}
+// }
+// console.log(mainList);
+
+var arr = [];
+for(let i = 0; i < 7; i++){
+	var a = prompt("Enter the digits");
+	arr[i] = a;
+if(arr[i].charAt(0) == 3 || arr[i].charAt(0) == 7){
+	console.log(arr[i]);
 };
-console.log(mainList.employers.director);
-
-var good1 = prompt("What kind of goods will we sell?");
-var good2 = prompt("What kind of goods will we sell?");
-var good3 = prompt("What kind of goods will we sell?");
-var arrofgoods = [good1,good2,good3];
-console.log(arrofgoods);
-
-var num = 33721;
-var b = String(num).split("");
-console.log(typeof(b));
-var proizv = 1;
-for(i=0; i<=4;i++){
- proizv*=b[i];
 }
-console.log(proizv);
-console.log(Math.pow(proizv,3));
