@@ -1,4 +1,4 @@
-/*var balance = prompt("Your balance?","100$");
+var balance = prompt("Your balance?","100$");
 console.log(balance);
 
 var c = prompt("Name of our store?");
@@ -18,7 +18,7 @@ var good1 = prompt("What kind of goods will we sell?");
 var good2 = prompt("What kind of goods will we sell?");
 var good3 = prompt("What kind of goods will we sell?");
 var arrofgoods = [good1,good2,good3];
-console.log(arrofgoods);*/
+console.log(arrofgoods);
 
 var num = 33721;
 var b = String(num).split("");
